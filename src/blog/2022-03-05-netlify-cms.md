@@ -3,16 +3,16 @@ layout: article.njk
 title: Netlify CMS
 author: JL
 category: CMS
-description: Use Netlify CMS with any static site generator for a faster and
-  more flexible web project.
+description: Automatically deploy your content changes to GitHub.
 date: 2022-03-05T08:00:00.000Z
 tag: post
 featuredImage: /assets/netlifycms.png
 ---
-### Static + content management
-Get the speed, security, and scalability of a static site, while still providing a convenient editing interface for content.
+### Great Speed
+Netlify CMS provides an easy way to provide content editors access to contribute quickly and their changes are automatically deployed to live site.
 
 
-### An integrated part of your Git workflow
-Content is stored in your Git repository alongside your code for easier versioning, multi-channel publishing, and the option to handle content updates directly in Git. 
+
+### Well Integrated with GitHub
+Content is stored and tracked in GitHub repository. This will allow changes to sync and multiple developers and content editors can work on the project at the same time. 
 [NetlifyCMS](https://www.netlifycms.org)
