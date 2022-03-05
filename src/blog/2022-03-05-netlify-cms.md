@@ -15,5 +15,4 @@ Get the speed, security, and scalability of a static site, while still providing
 
 ### An integrated part of your Git workflow
 Content is stored in your Git repository alongside your code for easier versioning, multi-channel publishing, and the option to handle content updates directly in Git. 
-
-[https://www.netlifycms.org/] (https://www.netlifycms.org/)
+[NetlifyCMS](https://www.netlifycms.org)
