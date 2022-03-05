@@ -11,7 +11,7 @@ collections:
     folder: "blog"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog.njk" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "article.njk" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Category", name: "category", widget: "string" }
