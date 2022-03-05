@@ -8,7 +8,7 @@
 
 ```sh
 $ npm init -y
-$ npm install --save-dev @11ty/eleventy!
+$ npm install --save-dev @11ty/eleventy
 ```
 
 ### Then clone the files from GitHub repository and install dependencies
