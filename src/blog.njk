@@ -1,0 +1,31 @@
+---
+title: My Garden
+layout: 'base.njk'
+---
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">{{title}}</h1>
+        <p class="col-md-12 fs-4">Gardening has became my new hobby. I feel relax and peaceful when taking care of my plants. They also are symbol of hope for me.</p>
+       <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
+    </div>
+</div>
+<div class="row align-items-md-stretch">
+    {%- for post in collections.post %}
+
+    <div class="col-md-12">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">{{post.data.category}}</strong>
+          <h3 class="mb-0">{{post.data.title}}</h3>
+          <div class="mb-1 text-muted">{{post.data.date | postDate}}</div>
+          <p class="card-text mb-auto">{{post.data.description}}</p>
+          <a href="{{post.url}}" title="{{post.data.title}}">Read more</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="400w" width="300" src="{{post.data.featuredImage}}" alt="{{post.data.title}}" />
+        </div>
+      </div>
+    </div>
+    {%- endfor %}
+
+</div>
