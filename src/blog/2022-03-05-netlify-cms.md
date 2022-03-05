@@ -15,4 +15,3 @@ Netlify CMS provides an easy way to provide content editors access to contribute
 
 ### Well Integrated with GitHub
 Content is stored and tracked in GitHub repository. This will allow changes to sync and multiple developers and content editors can work on the project at the same time. 
-[NetlifyCMS](https://www.netlifycms.org)
