@@ -9901,6 +9901,9 @@ fieldset:disabled .btn {
         padding: 50px 0;
         width: 90%;
     }
+    .jl-p {
+        padding-top: 60px;
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -9923,10 +9926,22 @@ fieldset:disabled .btn {
         font-size: 2rem;
         font-weight: 800;
         font-family: 'Playfair Display',serif;
+        text-align: center;
     }
     
     .jl-img {
         padding: 20px 0;
         width: 90%;
+    }
+
+    .jl-main-img {
+        padding: 20px 0;
+        width: 90%;
+    }
+
+    .jl-p {
+        padding: 20px 0;
+        width: 90%;
+        text-align: center;
     }
 }

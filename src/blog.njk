@@ -1,18 +1,25 @@
 ---
-title: Get Set - Ready - Go!
+title: Ready Set Go!
 layout: 'base.njk'
 ---
 <div class="p-5 mb-4 bg-light rounded-10 shadow">
     <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold jl-text-big">{{title}}</h1>
-        <p class="col-md-12 fs-4 jl-text">Supercharging my brain with a lot of information!</p>
+        <div class="row align-items-md-stretch">
+            <div class="col-md-7 fs-4">
+                <h1 class="display-5 fw-bold jl-text-big">{{title}}</h1>
+                <div class="col-md-12 fs-4 jl-text jl-p">Supercharging my brain with a lot of information!</div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <img class="jl-main-img rounded-circle" src="/assets/yes.png" alt="Learning" />
+            </div>
+        </div>
     </div>
 </div>
 <div class="row align-items-md-stretch">
     {%- for post in collections.post %}
 
     <div class="col-md-12">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative rounded-10">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-3 text-secondary">{{post.data.category}}</strong>
           <h3 class="mb-0 jl-text-m">{{post.data.title}}</h3>
