@@ -17,7 +17,6 @@ layout: 'base.njk'
 </div>
 <div class="row align-items-md-stretch">
     {%- for post in collections.post %}
-
     <div class="col-md-12">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative rounded-10">
         <div class="col p-4 d-flex flex-column position-static">
@@ -27,11 +26,7 @@ layout: 'base.njk'
           <p class="card-text mb-auto">{{post.data.description}}</p>
           <a class="pt-5 link-secondary" href="{{post.url}}" title="{{post.data.title}}">Read more</a>
         </div>
-        <div class="col-auto d-none d-lg-block">
-        <!--  <img class="p-2 jl-img-300" src="{{post.data.featuredImage}}" alt="{{post.data.title}}" />  -->
-        </div>
       </div>
     </div>
     {%- endfor %}
-
 </div>
